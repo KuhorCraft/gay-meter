@@ -40,7 +40,7 @@ function startMeter() {
             
             // CO SE STANE POTOM:
             
-            // 1. TORA - Let do nekonečna a chaos
+            // rapha
             if (lowName === "the_tora" || lowName === "con hổ tên là tora") {
                 setTimeout(() => {
                     windowBox.classList.add('madness');
@@ -54,7 +54,7 @@ function startMeter() {
                 }, 500);
             }
             
-            // 2. MAGNETIKK - Pád a malý bikisser dole
+            // já
             if (lowName === "magnetikk" || lowName === "kuhorcraft") {
                 setTimeout(() => {
                     let dropTimer = setInterval(() => {
