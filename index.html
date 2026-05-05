@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GAY METER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<center>
+    <div class="web-border" id="main-window">
+        <h1 class="main-title">GAY METER</h1>
+        <p><i>1000% accurate</i></p>
+        <hr>
+
+        <div class="content">
+            <p>Input your discord username thinhimajic:</p>
+            <input type="text" id="username" class="my-input" spellcheck="false">
+            <br><br>
+            <button onclick="startMeter()" class="xp-button">TEST</button>
+        </div>
+
+        <div class="result-box">
+            <div id="percentage">0%</div>
+            <div class="progress-container">
+                <!-- Tenhle se bude natahovat ze středu -->
+                <div id="fill" class="progress-fill"></div>
+            </div>
+        </div>
+
+        <!-- Malý bikisser dole pod čárou -->
+        <div id="bikisser-small" class="hidden">
+            <hr>
+            <img src="bikisser.png" width="60" style="vertical-align: middle;">
+            <span style="font-size: 12px; font-weight: bold;">boykisser, nah, bikisser</span>
+        </div>
+
+        <hr>
+        <p style="font-size: 10px;">Made by Magnetikk</p>
+    </div>
+</center>
+
+<script src="script.js"></script>
+</body>
+</html>        <!-- <3 -->
