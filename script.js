@@ -27,7 +27,7 @@ function startMeter() {
 
     // Podmínky pro speciální jména
     if (lowName === "the_tora" || lowName === "con hổ tên là tora") target = 9;
-    if (lowName === "magnetikk" || lowName === "kuhorcraft") target = 65;
+    if (lowName === "magnetikk" || lowName === "kuhorcraft") target = 72;
 
     // Start stoupání
     activeTimer = setInterval(() => {
@@ -58,7 +58,7 @@ function startMeter() {
             if (lowName === "magnetikk" || lowName === "kuhorcraft") {
                 setTimeout(() => {
                     let dropTimer = setInterval(() => {
-                        if (current > 45) {
+                        if (current > 55) {
                             current--;
                             display.innerText = current + "%";
                             fill.style.width = current + "%";
